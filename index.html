@@ -1,157 +1,80 @@
-Skip to content
-Navigation Menu
-Kkiennn
-/
-master
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Happy Birthday</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  
+	<meta charset="UTF-8" />
+	<meta name="description" content="Happy Birthday">
+	<meta name="robots" content="index, follow" />
+	<meta name="keywords" content="Birthday, Happy">
+	<meta property="og:type" content="E-Greeting" />
+	<meta property="og:image" content="favicon.ico" />
+	<meta property="og:description" content="Wish you a very Happy Birthday">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="loading.css">
+	<link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet/less" href="cake.less">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.1.0/less.min.js"></script>
+</head>
 
-Type / to search
+<body>
+	<div class="loading"></div>
+	<audio class="song" controls loop>
+        <source src="hbd.mp3"></source>
+	   Your browser isn't invited for super fun audio time.
+    </audio>
+    <div class="balloons text-center" id="b1">
+    	<h4 style="color:#F2B300;">A</h4>
+    </div>
+    <div class="balloons text-center" id="b2">
+    	<h4 style="color:#0719D4;">Very</h4>
+    </div>
+	<div class="balloons text-center" id="b3">
+    	<h4 style="color:#D14D39;">Happy</h4>
+    </div>
+	<div class="balloons text-center" id="b4">
+    	<h4 style="color:#8FAD00;">Birthday</h4>
+    </div>
+	<div class="balloons text-center" id="b5">
+    	<h4 style="color:#8377E4;">My</h4>
+    </div>
+    <div class="balloons text-center" id="b6">
+    	<h4 style="color:#99C96A;">Darling</h4>
+    </div>
+    <div class="balloons text-center" id="b7">
+    	<h4 style="color:#20CFB4;">Rease</h4>
+    </div>
 
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-Files
-Go to file
-t
-Balloon-Border.png
-README.md
-b1.png
-b2.png
-b3.png
-b4.png
-b5.png
-b6.png
-b7.png
-banner.png
-bd1.jpg
-bulb.png
-bulb_blue.png
-bulb_green.png
-bulb_orange.png
-bulb_pink.png
-bulb_red.png
-bulb_yellow.png
-cake.less
-cake128.png
-effect.js
-favicon.ico
-hbd.mp3
-index.html
-loading.css
-package-lock.json
-package.json
-stylesheet.css
-uggreen.png
-vine.png
-Editing index.html in master
-Breadcrumbsmaster
-/
-index.html
-in
-main
+    <img src="Balloon-Border.png" width="100%" class="balloon-border">
+ 
 
-Edit
-
-Preview
-Indent mode
-
-Tabs
-Indent size
-
-8
-Line wrap mode
-
-No wrap
-Editing index.html file contents
-84
-85
-86
-87
-88
-89
-90
-91
-92
-93
-94
-95
-96
-97
-98
-99
-100
-101
-102
-103
-104
-105
-106
-107
-108
-109
-110
-111
-112
-113
-114
-115
-116
-117
-118
-119
-120
-121
-122
-123
-124
-125
-126
-127
-128
-129
-130
-131
-132
-133
-134
-135
-136
-137
-138
-139
-140
-141
-142
-143
-144
-145
-146
-147
-148
-149
-150
-151
-152
-153
-154
-155
-156
-157
-158
-159
-160
-161
-162
-163
-164
-165
-166
-167
+	<div class="container">
+		
+		<div class="row">
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_yellow"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_red"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_blue"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_green"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_pink"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_orange"></div>
+			</div>
+		</div>
 		<div class="row">
 			<div class="col-md-12 text-center">
 				<img src="banner.png" class="bannar">
@@ -239,13 +162,12 @@ Editing index.html file contents
 				<div class="col-md-6 text-center col-md-offset-3">
 					<button class="btn btn-primary" id="turn_on">Lights on</button>
 					<button class="btn btn-primary" id="play">Play Music</button>
-					<button class="btn btn-primary" id="bannar_coming">Decor</button>
-					<button class="btn btn-primary" id="balloons_flying">Balloons</button>
-					<button class="btn btn-primary" id="cake_fadein">Your cakey</button>
+					<button class="btn btn-primary" id="bannar_coming">Decorr</button>
+					<button class="btn btn-primary" id="balloons_flying">Balloons VvV</button>
+					<button class="btn btn-primary" id="cake_fadein">Cakeyy</button>
 					<button class="btn btn-primary" id="light_candle"> Light Candle</button>
-					<button class="btn btn-primary" id="wish_message">Happy Birthday!</button>
+					<button class="btn btn-primary" id="wish_message">Happy Birthday!!</button>
 					<button class="btn btn-primary" id="story">I wuvv youu</button>
-					<!-- <button class="btn btn-primary" id="cake_cut">Lrt's Cut the Cake</button> -->
 				</div>
 			</div>
 		</div>
@@ -255,6 +177,3 @@ Editing index.html file contents
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 <script src="effect.js"></script>
 </html>
-
-Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
-Editing master/index.html at main · Kkiennn/master
