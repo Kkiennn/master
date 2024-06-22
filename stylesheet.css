@@ -1,5 +1,5 @@
 body {
-	/*background-color: #db5a51;	*/
+	/*background-color: #a65be3	*/
 	background-color: #000;
 	-webkit-transition:background-color linear 5s;
 	-moz-transition:background-color linear 5s;
@@ -25,90 +25,90 @@ body {
 
 @-webkit-keyframes peach_alive {
 	0%{
-		background-color: #03fcdf;
+		background-color: #d6adf7;
 	}
 	25%{
-		background-color: #db5a51;
+		background-color: #ead1ff;
 	}
 	50%{
-		background-color: ##05f6fa;
+		background-color: #d6adf7;
 	}
 	75%{
-		background-color: ##05e5fa;
+		background-color: #bb98d9;
 	}
 	100%{
-		background-color: ##05cde3;
+		background-color: #d6adf7;
 	}
 }
 @-moz-keyframes peach_alive {
 	0%{
-		background-color: #db5a51;
+		background-color: #d6adf7;
 	}
 	25%{
-		background-color: #05cde3;
+		background-color: #ead1ff;
 	}
 	50%{
-		background-color: #db5a51;
+		background-color: #d6adf7;
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #bb98d9;
 	}
 	100%{
-		background-color: #db5a51;
+		background-color: #d6adf7;
 	}
 }
 
 @-o-keyframes peach_alive {
 	0%{
-		background-color: #db5a51;
+		background-color: #d6adf7;
 	}
 	25%{
-		background-color: #05cde3;
+		background-color: #ead1ff;
 	}
 	50%{
-		background-color: #db5a51;
+		background-color: #d6adf7;
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #bb98d9;
 	}
 	100%{
-		background-color: #db5a51;
+		background-color: #d6adf7;
 	}
 }
 
 @-ms-keyframes peach_alive {
 	0%{
-		background-color: #f0a397;
+		background-color: #d6adf7;
 	}
 	25%{
-		background-color: #05cde3;
+		background-color: #ead1ff;
 	}
 	50%{
-		background-color: #db5a51;
+		background-color: #d6adf7;
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #bb98d9;
 	}
 	100%{
-		background-color: #db5a51;
+		background-color: #d6adf7
 	}
 }
 
 @keyframes peach_alive {
 	0%{
-		background-color: #db5a51;
+		background-color: #d6adf7;
 	}
 	25%{
-		background-color: #05cde3;
+		background-color: #ead1ff;
 	}
 	50%{
-		background-color: #db5a51;
+		background-color: #d6adf7;
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #bb98d9;
 	}
 	100%{
-		background-color: #db5a51;
+		background-color: #d6adf7;
 	}
 }
 
@@ -1302,12 +1302,3 @@ audio {
         color: #fff;
         background-color: #466baf;
     }
-
-
-
-    /*controlling tablet width*/
-    /*@media only screen and (max-width: 720px){
-    	.container {
-    		-webkit-transform: scale(0.9);
-    	}
-    }*/
